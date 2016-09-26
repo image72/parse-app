@@ -1,0 +1,26 @@
+{
+  "name": "parse-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parse-server.js",
+  "scripts": {
+    "start": "node parse-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/image72/parse-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/image72/parse-app/issues"
+  },
+  "homepage": "https://github.com/image72/parse-app#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "parse-dashboard": "^1.0.18",
+    "parse-server": "^2.2.22"
+  }
+}
